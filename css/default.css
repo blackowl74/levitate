@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/montserrat/Montserrat-Black.ttf") format("opentype");
+  font-weight: 900;
+}
+html {
+  font-size: 22px;
+}
+
+h1 {
+  font-size: var(--title-size);
+  line-height: var(--title-size);
+  font-weight: 400;
+}
+
+h2 {
+  font-size: var(--subtitle-size);
+  line-height: var(--subtitle-size);
+  font-weight: 900;
+}
+
+p {
+  font-size: var(--text-size);
+  line-height: calc(var(--text-size) * 1.7);
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+@media screen and (max-width: 350px) {
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 2.375rem;
+    line-height: 2.375rem;
+    font-weight: 900;
+  }
+  p {
+    font-size: var(--text-size);
+    line-height: calc(var(--text-size) * 1.7);
+    font-weight: 400;
+  }
+}/*# sourceMappingURL=default.css.map */
