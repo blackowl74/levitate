@@ -9,8 +9,7 @@
 }
 @media screen and (max-width: 350px) {
   .main .voice-control {
-    min-height: 200vh
-      ;
+    height: 200vh;
     flex-direction: column;
     overflow: hidden;
     padding: 16px;
